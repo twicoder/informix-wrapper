@@ -2,7 +2,7 @@
 
 CURRENTPWD=${PWD}
 CLASSPATH=${PWD}/build/lib/gson-2.2.4.jar
-JAVA_VERSION=1.6
+JAVA_VERSION=1.8
 JAVAC_OPTS="-classpath ${CLASSPATH} -source ${JAVA_VERSION} -target ${JAVA_VERSION} -bootclasspath ${JAVA_HOME}/jre/lib/rt.jar"
 
 cd ./src/com/topcoder/node/jdbc/
